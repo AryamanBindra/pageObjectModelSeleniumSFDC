@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="sdfc.com.tests.UserMenuTest">
+        <methods>
+          <include name="TC09" invocation-numbers="0"/>
+          <include name="flushReport"/>
+          <include name="initializeReport"/>
+          <include name="driverSetup"/>
+          <include name="TC06" invocation-numbers="0"/>
+          <include name="TC05" invocation-numbers="0"/>
+          <include name="TC08" invocation-numbers="0"/>
+          <include name="removeDriver"/>
+        </methods>
+      </class> <!-- sdfc.com.tests.UserMenuTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
