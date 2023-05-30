@@ -1,4 +1,4 @@
-package sfdc.com.pages;
+package pages;
 
 import java.io.IOException;
 

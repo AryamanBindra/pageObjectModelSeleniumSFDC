@@ -1,4 +1,4 @@
-package sdfc.com.tests;
+package tests;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -11,9 +11,9 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 
-import sfdc.com.pages.LoginPage;
-import sfdc.reusable.utils.Utilities;
+import pages.LoginPage;
 import testdata.LoginData;
+import utils.Utilities;
 
 
 public class LoginTest extends TestBase{

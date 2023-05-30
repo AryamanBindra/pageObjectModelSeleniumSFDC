@@ -1,4 +1,4 @@
-package sfdc.reusable.utils;
+package utils;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package sdfc.com.tests;
+package tests;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -11,9 +11,9 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 
-import sfdc.reusable.utils.*;
+import pages.UserMenuPage;
 import testdata.LoginData;
-import sfdc.com.pages.UserMenuPage;
+import utils.*;
 
 public class UserMenuTest extends TestBase{
 

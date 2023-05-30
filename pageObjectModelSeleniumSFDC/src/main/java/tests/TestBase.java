@@ -1,4 +1,4 @@
-package sdfc.com.tests;
+package tests;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package sfdc.com.listeners;
+package listeners;
 
 import java.io.IOException;
 
@@ -6,8 +6,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import sdfc.com.tests.TestBase;
-import sfdc.reusable.utils.Utilities;
+import tests.TestBase;
+import utils.Utilities;
 
 public class SfdcListeners extends TestBase implements ITestListener{
 
