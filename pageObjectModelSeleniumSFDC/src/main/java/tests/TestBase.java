@@ -19,10 +19,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 	public static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<WebDriver>();
-	public static Logger logger = LogManager.getLogger("");
+	protected static Logger logger = LogManager.getLogger();
 	protected static ExtentReports extent = new ExtentReports();
 	protected static ExtentHtmlReporter report = null;
-	
 	public static ExtentTest test = null;
 	
 	@BeforeSuite
