@@ -2,20 +2,20 @@
 <testng-results ignored="1" total="5" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-30T16:23:04Z" name="Default suite" finished-at="2023-05-30T16:24:20Z" duration-ms="75969">
+  <suite started-at="2023-06-01T16:53:20Z" name="Default suite" finished-at="2023-06-01T16:54:33Z" duration-ms="72957">
     <groups>
     </groups>
-    <test started-at="2023-05-30T16:23:04Z" name="Default test" finished-at="2023-05-30T16:24:20Z" duration-ms="75969">
-      <class name="sdfc.com.tests.UserMenuTest">
-        <test-method is-config="true" signature="initializeReport()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:04Z" name="initializeReport" finished-at="2023-05-30T09:23:04Z" duration-ms="93" status="PASS">
+    <test started-at="2023-06-01T16:53:20Z" name="Default test" finished-at="2023-06-01T16:54:33Z" duration-ms="72957">
+      <class name="tests.UserMenuTest">
+        <test-method is-config="true" signature="initializeReport()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:53:20Z" name="initializeReport" finished-at="2023-06-01T09:53:20Z" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeReport -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:04Z" name="driverSetup" finished-at="2023-05-30T09:23:05Z" duration-ms="926" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:53:20Z" name="driverSetup" finished-at="2023-06-01T09:53:21Z" duration-ms="875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="TC05(java.lang.String, java.lang.String)[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:05Z" name="TC05" data-provider="LoginData" finished-at="2023-05-30T09:23:42Z" duration-ms="37134" status="FAIL">
+        <test-method signature="TC05(java.lang.String, java.lang.String)[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:53:21Z" name="TC05" data-provider="LoginData" finished-at="2023-06-01T09:54:03Z" duration-ms="41562" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@id='userNavLabel' and @class='menuButtonLabel']' (tried for 30 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at sdfc.com.tests.UserMenuTest.TC05(UserMenuTest.java:28)
+	at tests.UserMenuTest.TC05(UserMenuTest.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,10 +68,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ARYAPENG', ip: '10.0.0.180', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\bindr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b3866097a78ca2192626875e3027739
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\bindr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 354a988478c25c6abf1acb65c02739a2
 *** Element info: {Using=xpath, value=//span[@id='userNavLabel' and @class='menuButtonLabel']}
-	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -87,7 +87,7 @@ Session ID: 2b3866097a78ca2192626875e3027739
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
 	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
 	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
@@ -100,15 +100,15 @@ Session ID: 2b3866097a78ca2192626875e3027739
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05 -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:42Z" name="removeDriver" finished-at="2023-05-30T09:23:42Z" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:03Z" name="removeDriver" finished-at="2023-06-01T09:54:03Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:42Z" name="driverSetup" finished-at="2023-05-30T09:23:43Z" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:03Z" name="driverSetup" finished-at="2023-06-01T09:54:03Z" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="TC06(java.lang.String, java.lang.String)[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:43Z" name="TC06" data-provider="LoginData" finished-at="2023-05-30T09:23:55Z" duration-ms="12586" status="FAIL">
+        <test-method signature="TC06(java.lang.String, java.lang.String)[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:03Z" name="TC06" data-provider="LoginData" finished-at="2023-06-01T09:54:14Z" duration-ms="10553" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -130,7 +130,7 @@ Session ID: 2b3866097a78ca2192626875e3027739
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
-	at sdfc.com.tests.UserMenuTest.TC06(UserMenuTest.java:44)
+	at tests.UserMenuTest.TC06(UserMenuTest.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -162,15 +162,15 @@ Session ID: 2b3866097a78ca2192626875e3027739
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC06 -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:55Z" name="removeDriver" finished-at="2023-05-30T09:23:55Z" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:14Z" name="removeDriver" finished-at="2023-06-01T09:54:14Z" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:55Z" name="driverSetup" finished-at="2023-05-30T09:23:56Z" duration-ms="698" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:14Z" name="driverSetup" finished-at="2023-06-01T09:54:15Z" duration-ms="577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="TC08(java.lang.String, java.lang.String)[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:23:56Z" name="TC08" data-provider="LoginData" finished-at="2023-05-30T09:24:08Z" duration-ms="11759" status="FAIL">
+        <test-method signature="TC08(java.lang.String, java.lang.String)[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:15Z" name="TC08" data-provider="LoginData" finished-at="2023-06-01T09:54:22Z" duration-ms="7164" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -192,7 +192,7 @@ Session ID: 2b3866097a78ca2192626875e3027739
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
-	at sdfc.com.tests.UserMenuTest.TC08(UserMenuTest.java:96)
+	at tests.UserMenuTest.TC08(UserMenuTest.java:98)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -224,15 +224,15 @@ Session ID: 2b3866097a78ca2192626875e3027739
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC08 -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:24:08Z" name="removeDriver" finished-at="2023-05-30T09:24:08Z" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:22Z" name="removeDriver" finished-at="2023-06-01T09:54:22Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="driverSetup()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:24:08Z" name="driverSetup" finished-at="2023-05-30T09:24:08Z" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:22Z" name="driverSetup" finished-at="2023-06-01T09:54:22Z" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="TC09(java.lang.String, java.lang.String)[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:24:08Z" name="TC09" data-provider="LoginData" finished-at="2023-05-30T09:24:20Z" duration-ms="11641" status="FAIL">
+        <test-method signature="TC09(java.lang.String, java.lang.String)[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:22Z" name="TC09" data-provider="LoginData" finished-at="2023-06-01T09:54:33Z" duration-ms="11040" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -254,7 +254,7 @@ Session ID: 2b3866097a78ca2192626875e3027739
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
-	at sdfc.com.tests.UserMenuTest.TC09(UserMenuTest.java:112)
+	at tests.UserMenuTest.TC09(UserMenuTest.java:115)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -286,15 +286,15 @@ Session ID: 2b3866097a78ca2192626875e3027739
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC09 -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:24:20Z" name="removeDriver" finished-at="2023-05-30T09:24:20Z" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:33Z" name="removeDriver" finished-at="2023-06-01T09:54:33Z" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:sdfc.com.tests.UserMenuTest@3697186]" started-at="2023-05-30T09:24:20Z" name="flushReport" finished-at="2023-05-30T09:24:20Z" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.UserMenuTest@29876704]" started-at="2023-06-01T09:54:33Z" name="flushReport" finished-at="2023-06-01T09:54:34Z" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
-      </class> <!-- sdfc.com.tests.UserMenuTest -->
+      </class> <!-- tests.UserMenuTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

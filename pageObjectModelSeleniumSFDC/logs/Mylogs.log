@@ -1,0 +1,29 @@
+[WARN ] 2023-06-01 09:21:29.169 [main] TestBase - AGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+[DEBUG] 2023-06-01 09:21:29.169 [main] TestBase - BaseTest: setup: configuration started 
+[DEBUG] 2023-06-01 09:21:29.225 [main] TestBase - BaseTest: setup: configuration complete
+[WARN ] 2023-06-01 09:21:29.233 [main] TestBase - AGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+[DEBUG] 2023-06-01 09:21:30.107 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:21:34.234 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:21:34.414 [main] TestBase - BaseTest: tearDown: completed 
+[DEBUG] 2023-06-01 09:50:38.896 [main] TestBase - BaseTest: setup: configuration started 
+[DEBUG] 2023-06-01 09:50:38.966 [main] TestBase - BaseTest: setup: configuration complete
+[DEBUG] 2023-06-01 09:50:39.849 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:50:43.702 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:50:44.224 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:50:45.091 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:50:45.606 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:51:17.090 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:51:17.600 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:51:28.577 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:51:28.785 [main] TestBase - BaseTest: tearDown: completed 
+[DEBUG] 2023-06-01 09:53:20.914 [main] TestBase - BaseTest: setup: configuration started 
+[DEBUG] 2023-06-01 09:53:20.960 [main] TestBase - BaseTest: setup: configuration complete
+[DEBUG] 2023-06-01 09:53:21.844 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:54:03.432 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:54:03.987 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:54:14.569 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:54:15.145 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:54:22.330 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:54:22.853 [main] TestBase - BaseTest: setDriver: driver saved on to a threadlocal object
+[DEBUG] 2023-06-01 09:54:33.916 [main] TestBase - BaseTest: removeDriver: driver configuration removed from the thread
+[DEBUG] 2023-06-01 09:54:34.138 [main] TestBase - BaseTest: tearDown: completed 
